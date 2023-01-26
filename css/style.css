@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    height: 750px;
+    display: grid;
+    width: 99, 5%;
+    grid-auto-rows: 1fr;
+    column-gap: 2%;
+    row-gap: 2px;
+    grid-template-columns: repeat(12, 1fr);
+}
+header {
+
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 2;
+   border: 1px solid black;
+}
+#container2 {
+    grid-column: 5/13;
+    grid-row: 2/3;
+}
+#container3 {
+    border-right: 2px solid black;
+    grid-column: 1/7;
+    grid-row: 3/7;
+
+}
+#container4 {
+
+    grid-column: 7/13;
+    grid-row: 3/7;
+
+}
+#Färdiga {
+    color: linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db);
+}
+
+#attgöra {
+    color: linear-gradient(90deg, #ee5c87, #f1a4b5, #d587b3);
+
+}
+button {
+
+    height: 55px;
+}
+#txt {
+
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 18px;
+    height: 50px;
+    width: 200px;
+    justify-content: center;
+    width: 300px;
+    text-align: center;
+    padding-right: 40px;
+    margin-top: 40px;
+
+}
+li {
+    background-color: #F0F0F0;
+    padding: 20px;
+    margin-right: 60px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 15px;
+    height: 20px;
+}
+#btn1:hover,
+#btn:hover,
+.ändra:hover,
+.tabort:hover,
+.färdig:hover {
+    transform: scale(1.05);
+}
+
+
+button {
+
+    height: 55px;
+}
+
+h1 {
+
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 700;
+    text-decoration: underline;
+}
+#btn {
+    background: linear-gradient(90deg, #a4efa6, #34c74a, #64fc5f);
+    color: white;
+    border-radius: 20%;
+    margin-left: 10px;
+
+}
+#btn1 {
+    background: linear-gradient(90deg, #ee5c87, #f1a4b5, #d587b3);
+    color: white;
+    border-radius: 20%;
+    margin-left: 10px;
+
+}
+.ändra,
+.färdig,
+.tabort {
+    height: 30px;
+    margin-left: 10px;
+
+}
+.ändra {
+    background: linear-gradient(90deg, #f7d762, #efec63);
+    color: white;
+}
+.färdig {
+    background: linear-gradient(90deg, #34e93a, #a0cea7, #9edbaa);
+    color: white;
+}
+.tabort {
+    background: linear-gradient(90deg, #ee5c87, #f1a4b5, #d587b3);
+    color: white;
+
+}
+.innehåll {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: monospace;
+    padding-left: 10px;
+    width: 200px;
+    height: 30px;
+
+}
+.error {
+    color: #af0c0c;
+    background-color: #ffe0e0;
+    padding: 8px;
+    padding-bottom: 0px;
+    display: none;
+    margin-left: 20PX;
+    width: 100 px;
+    height: 35px;
+}
